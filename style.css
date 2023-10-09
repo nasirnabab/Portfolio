@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(155, 155, 247);
+    font-size: 1.04rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+.first >div{
+    width: 30%;
+}
+.leftsection{
+    font-size: 3rem;
+}
+.leftsection .btn{
+    background: #1e2167;
+    font-size: 20px;
+    padding: 12px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+.leftsection .button{
+    padding: 50px 0;
+}
+.rightsection{
+    /* background-color: red; */
+}
+.rightsection img{
+    width: 80%;
+    height: 500px;
+}
+.purple{
+    color: rgb(170, 97, 238);
+}
+#element{
+    color: rgb(125, 243, 125);
+}
+.second{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+main hr{
+    border: 0;
+    background-color: rgb(138, 225, 168);
+    height: 1.2px;
+    margin: 60px 84px;
+}
+.second h1{
+    font-size: 1.9rem;
+}
+.gray{
+    color: gray;
+}
+.second .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.second .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-text{
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    width: 150px;
+    color: gray;
+    font-size: 9px;
+}
+footer{
+    background-color: #0e0e1a;
+    /* height: 230px; */
+}
+.flex{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.first1{
+
+}
+.flex ul{
+    list-style: none;
+}
+.flex div{
+    width: 223px;
+}
+footer .text-center{
+    color: gray;
+    text-align: center;
+    padding: 12px 0;
+}
+.third{
+    margin-bottom: 10px;
+}
+.image-down{
+    width: 23px;
+    position: relative;
+    /* top: -32px; */
+    
+}
+.third a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+label #btn ,
+label #cancel {
+    color: white;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
